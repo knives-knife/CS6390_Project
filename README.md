@@ -99,11 +99,8 @@ We will run your code in the UTD unix machine that you mention in the README fil
   
 This is a long description, so it can have many omissions, typos, and mistakes. The sooner you read it and find them, the sooner I will be able to fix them! :)  
   
-**
 
 ## Overview  
-
------------
 
 The network we will simulate will be a network with unidirectional channels (links). Thus, if from node x to node y there is a channel it does not imply that there is a channel also from y to x. We will build a link-state routing protocol, and then build a multicast protocol on top of it (and no it is not MOSPF)  
 
@@ -209,7 +206,6 @@ Not that if x receives hello messages from y, it knows there is a channel from y
 If a node does not receive a Hello message from a neighbor in 10 seconds, it assumes the link from the neighbor to itself is no longer working.
 
 ### Routing Protocol
-----------------
 
 The routing protocol is simply a link-state routing protocol (by the way, link-state works just fine in unidirectional networks). You should be familiar with link-state routing from your previous course.  
   
