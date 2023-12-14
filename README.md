@@ -10,7 +10,7 @@
 - For full the full protocol definition, see the [Project Description](#project-description) section.
 - **Python 3 is required.** (Probably. I didn't test with Python 2.)
 - The input and output files are in the `input` and `output` directories. 
-- The `controller` will delete the files in the `input` and `output` directory each time it runs.
+- The `controller` will create the `input` and `output` directories if needed and delete the files in the `input` and `output` directory if needed each time it runs.
 - The `make clean` command will kill any active controllers or nodes (runs `make kill`) and removes the `__pycahce__`, `input`, and `output` directories.
 - Only 1 topology file is provided (seen [here](#provided-topology)).
 
