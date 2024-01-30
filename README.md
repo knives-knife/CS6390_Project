@@ -1,5 +1,5 @@
 # Instructions
-1. Raead [Case Information](#case-information) for information about the cases. 
+1. Read [Case Information](#case-information) for information about the cases. 
 1. Run `make caseX` where `X` is replaced by the case number you wish to run.
 1. Depending on the case, you may need to wait approximately 40 seconds before the make file finishes.
 1. The input and output files in the `input` and `ouput` directories will contain the messages of the nodes.
